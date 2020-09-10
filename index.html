@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <META charset="utf-8">
+    <META name="description" content="Президент мира">
+    <META name="keywords" content="Выборы президента мира, голосование">
+    <title>Сайт президента мира</title>
+    <link rel="stylesheet" type="text/css" href="media/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="media/css/style.css" />
+    <script src="media/js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $('#menutop a').mouseover(function(){
+                str = $(this).text();
+                $('#header h1').text(str);
+            });
+        });
+    </script>
+</head>
+<body>
+<header id="header">
+    <img src="media/img/losos.png" id="logo" />
+    <h1 id="logotext">Президент мира</h1>
+    <div id="reg">
+        <a href="/">Регистрация</a>
+        <a href="/">Вход</a>
+    </div>
+</header>
+<div></div>
+<div class="myclass"></div>
+<div class="myclass myclass2 myclass3"></div>
+<div id="myid"></div>
+<div id="menutop">
+    <a href="/">Главная</a>
+    <a href="/">Статистика</a>
+    <a href="/">Регламент</a>
+    <a href="http://erud.by">Граждане мира</a>
+</div>
+<div class="container mytext">
+    <div class="row">
+        <div class="col-md-3">
+            <br />
+            <a href="#" class="btn btn-block btn-success">Указы</a>
+            <a href="#" class="btn btn-block btn-success">Советы</a>
+            <a href="#" class="btn btn-block btn-success">Документы</a>
+        </div>
+        <div class="col-md-6">content</div>
+        <div class="col-md-3">widjet</div>
+    </div>
+    <br style="clear:both" />
+</div>
+<footer id="foot">
+    2013-2020 &copy; <a href="#">mikhalkevich</a>
+</footer>
+</body>
+</html>

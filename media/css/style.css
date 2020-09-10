@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #9acfea;
+}
+#header{
+    height: 200px;
+    background: chocolate;
+}
+#logo {
+    float:left;
+    margin-left:50px;
+    margin-top:50px;
+}
+#reg {
+   position: absolute;
+    top:150px;
+    right:100px;
+}
+#reg a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+#reg a:hover {
+    text-decoration: underline;
+}
+#logotext {
+    float:right;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    margin-right:50px;
+    margin-top:50px;
+}
+#menutop {
+    display: flex;
+}
+#menutop a {
+    flex:1;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    border-right:1px darkgoldenrod solid;
+    text-decoration: none;
+    background: brown;
+    color:white;
+    font-weight:bold;
+}
+#menutop a:hover {
+    background:#9acfea;
+    color:brown;
+}
+.mytext {
+    background: white;
+    border:solid 1px #3c3c3c;
+    margin-top:20px;
+}
+#foot {
+    padding:150px;
+    text-align: center;
+    color:black;
+}
+#foot a {
+    color:blue;
+}
+.btn-success {
+    font-size:29px;
+}
